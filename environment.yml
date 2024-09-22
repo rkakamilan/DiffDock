@@ -1,4 +1,4 @@
-name: diffdock
+name: diffdock2
 channels:
   - pyg
   - nvidia
@@ -35,6 +35,6 @@ dependencies:
     - torch-sparse==0.6.16+pt113cu117
     - torch-spline-conv==1.2.1+pt113cu117
     - torchmetrics==0.11.0
-    - openfold @ git+https://github.com/aqlaboratory/openfold.git@4b41059694619831a7db195b7e0988fc4ff3a307
-    - gradio==3.50.*
-    - requests
+#    - openfold @ git+https://github.com/aqlaboratory/openfold.git@4b41059694619831a7db195b7e0988fc4ff3a307
+#    - gradio==3.50.*
+#    - requests
