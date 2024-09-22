@@ -75,6 +75,7 @@ To set up an appropriate environment, navigate to the root of the repository and
 
     conda env create --file environment.yml
     conda activate diffdock
+    pip install openfold@git+https://github.com/aqlaboratory/openfold.git@4b41059694619831a7db195b7e0988fc4ff3a307
 
 See [conda documentation](https://conda.io/projects/conda/en/latest/commands/env/create.html) for more information.
 
